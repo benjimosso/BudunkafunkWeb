@@ -1,6 +1,5 @@
 /* Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Bungee+Shade&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Outline&family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Outline&family=Bungee+Shade&family=Oswald&display=swap');
 
 
 body {
@@ -28,7 +27,7 @@ body {
     /* border: solid 5px black; */
     background-color: black;
     margin-top: 2px;
-    padding-top: 20px;
+    padding-top: 10px;
     height: 50px;
 }
 
@@ -71,35 +70,56 @@ a.nav-link:hover::before {
   transform: scaleX(1);
 }
 
+/*  Logo and social media */
 .logo-bfunk {
-  
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  padding-top: 100px;
+}
+
+.logo_social {
+  display:flex;
+  justify-content:space-around;
+  margin: -10px;
+}
+
+.facebook {
   
 }
 
-.Title {
-  font-family: 'Bungee Shade', cursive;
-  text-align: center;
-  font-size: 2rem;
+/* About us Section */
+
+.about-us {
+  display:flex;
+  /* flex-wrap: wrap; */
+  padding:8%;
+
 }
 
-
+.about-us p {
+  text-align: left;
+}
 /* Float left, titles on the left side. */
 
 .float_left {
-  flex: 30%;
+  flex: 20%;
   border-right: 10px solid black;
   text-align: end;
-  color: var(--medgreen);
-  /* font-size: 5rem; */
+  font-size: 3rem;
+  font-family: 'Bungee Shade', cursive;
   padding-right: 50px;
 }
 
 /* Float Right on the left */
 
 .float_right {
-  flex: 70%;
-  padding-left: 5%;
-  padding-right: 5%;
+  flex: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  font-family: 'Oswald', sans-serif;
 }
 
 /*  PANEL SECTION */
