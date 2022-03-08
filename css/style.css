@@ -82,7 +82,9 @@ a.nav-link:hover::before {
 .logo_social {
   display:flex;
   justify-content:space-around;
-  margin: -10px;
+  /* margin: -10px; */
+  padding-left: 35%;
+  padding-right: 40%;
 }
 
 .facebook {
@@ -101,14 +103,20 @@ a.nav-link:hover::before {
 .about-us p {
   text-align: left;
 }
+
+.title { 
+  font-size: 3rem;
+  font-family: 'Bungee Shade', cursive;
+  text-align: center;
+}
 /* Float left, titles on the left side. */
 
 .float_left {
   flex: 20%;
-  border-right: 10px solid black;
+  border-right: 10px solid #ffab24;
   text-align: end;
-  font-size: 3rem;
-  font-family: 'Bungee Shade', cursive;
+  /* font-size: 3rem;
+  font-family: 'Bungee Shade', cursive; */
   padding-right: 50px;
 }
 
