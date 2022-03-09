@@ -87,9 +87,6 @@ a.nav-link:hover::before {
   padding-right: 40%;
 }
 
-.facebook {
-  
-}
 
 /* About us Section */
 
@@ -128,6 +125,58 @@ a.nav-link:hover::before {
   padding-right: 10%;
   padding-top: 1%;
   font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+}
+
+
+/* Shows Section  */
+.shows { 
+  display: flex;
+  padding: 5%;
+  background-color: #8cd1cc;
+
+
+}
+
+.shows-right {
+  flex: 20%;
+  border-left: 10px solid #BE554F;
+  
+  /* text-align: right; */
+
+}
+
+
+
+
+.shows-left {
+  flex: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  /* color: white; */
+  font-size: 2rem;
+}
+
+.shows-list li {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.Border-list {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  padding-top: 20px;
+  /* padding-bottom: 10px; */
+  border-bottom: 3px solid #BE554F;
+}
+
+.Book {
+  text-align: center;
 }
 
 /*  PANEL SECTION */
