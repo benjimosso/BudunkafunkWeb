@@ -81,10 +81,11 @@ a.nav-link:hover::before {
 
 .logo_social {
   display:flex;
-  justify-content:space-around;
+  /* justify-content:space-around; */
   /* margin: -10px; */
-  padding-left: 35%;
-  padding-right: 40%;
+  padding-right: 79%;
+  
+
 }
 
 
