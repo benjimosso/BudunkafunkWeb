@@ -247,7 +247,7 @@ padding-top: 20px;
   margin-left: 10px;
 }
 
-.title{
+.titulo{
   margin-left: 10px;
   width: 210px;
   text-align: center;
@@ -315,12 +315,12 @@ padding-top: 20px;
 
 #pictures {
   padding: 7%;
-  
+  /* background-color: black; */
 }
 
 .pic-title {
   /* background-color: #623f3a; */
-  
+  text-align: center;
 }
 
 /*  PANEL SECTION */
