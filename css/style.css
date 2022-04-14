@@ -187,6 +187,7 @@ a.nav-link:hover::before {
 .music {
   display: flex;
   padding: 8%;
+  /* padding-bottom: 0%; */
   margin-top:2%;
   background-color: #f9a76d;
 }
@@ -314,13 +315,16 @@ padding-top: 20px;
 /* Pictures */
 
 #pictures {
-  padding: 7%;
+  /* padding: 7%; */
+  /* padding-bottom: 0%; */
+  /* padding-top: 0%; */
   /* background-color: black; */
 }
 
 .pic-title {
-  /* background-color: #623f3a; */
-  text-align: center;
+  /* background-color: #6Dada5; */
+  /* border: 15px solid #f18c43; */
+
 }
 
 /*  PANEL SECTION */
