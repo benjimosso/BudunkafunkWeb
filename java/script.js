@@ -49,17 +49,17 @@ const panels = document.querySelectorAll('.panel');
   
     var listAudio = [
       {
-        name:"Badunkafunk - Sweet Candy",
+        name:"Budunkafunk - Sweet Candy",
         file:"./Music/Sweet Candy-FinalMaster.mp3",
         duration:"02:49"
       },
       {
-        name:"Badunkafunk - (#2)",
+        name:"Budunkafunk - (#2)",
         file:"./Music/2-FinalMaster.mp3",
         duration:"02:44"
       },
       {
-        name:"Badunkafunk - Land Of Gypsys",
+        name:"Budunkafunk - Land Of Gypsys",
         file:"./Music/Land of Gypsys-FInalMaster.mp3",
         duration:"02:18"
       }
