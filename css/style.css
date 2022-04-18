@@ -5,20 +5,6 @@
 body {
   margin: 0;
 }
-/* 
-.budunkafunk-background {
-    height: 200px;
-    background-repeat: no-repeat;
-    background-image: url(./Pictures/Background2.png);
-    background-color: rgb(56, 54, 54);
-    background-size: cover;
-    background-position: center bottom 50px;
-    background-attachment: fixed;
-    align-items: center;
-    width: 100%;
-    position: absolute;
-
-} */
 
 /* Navigation Bar */
 .nav {
@@ -403,4 +389,24 @@ padding-top: 20px;
   .panel p {
     font-size: 1em;
   }
+}
+
+@media only screen and (max-width:375px){
+  
+  
+  .about-us {
+    display:block;
+    /* flex-wrap: wrap; */
+    /* padding:8%; */
+  }
+  .title { 
+    font-size: 2rem;
+  }
+  .music { 
+    display:block;
+  }
+  .shows { 
+    display:block;
+  }
+
 }
