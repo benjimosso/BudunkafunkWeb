@@ -161,6 +161,7 @@ const panels = document.querySelectorAll('.panel');
     function setBarProgress(){
       var progress = (this.currentAudio.currentTime/this.currentAudio.duration)*100;
       document.getElementById("myBar").style.width = progress + "%";
+     
     }
   
   
