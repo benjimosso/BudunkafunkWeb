@@ -102,8 +102,11 @@ a.nav-link:hover::before {
   /* justify-content:space-around; */
   /* margin: -10px; */
   padding-right: 79%;
-  
+}
 
+.logoSize {
+  height: 50px;
+  width: 50px;
 }
 
 /* Float Right on the left */
@@ -410,18 +413,39 @@ padding-top: 20px;
     /* flex-wrap: wrap; */
     /* padding:8%; */
   }
+
+  .about-us p {
+    text-align: center;
+  }
+
+  .logoSize {
+    height: 30px;
+    width: 30px;
+  }
+
+  .logo_social {
+    padding-left: 0%;
+    padding-right: 0%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px
+  }
+
   .title { 
     font-size: 1.5rem;
     text-align: center;
   }
 
+
+  
+
   .float_left {
     flex: 20%;
-    /* border-right: 10px solid #ffab24; */
+    border-right: none !important;
     text-align: center;
     /* font-size: 3rem;
     font-family: 'Bungee Shade', cursive; */
-    /* padding-right: 50px; */
+    padding-right: 1px;
   }
 
   .float_right {
@@ -431,6 +455,15 @@ padding-top: 20px;
     padding-top: 1%;
     font-family: 'Oswald', sans-serif;
     font-size: 1rem;
+  }
+
+  .shows-right {
+    border-left: none !important;
+  }
+
+  .shows-left {
+    font-size: 1rem;
+    padding-left: 0%
   }
 
   .music { 
