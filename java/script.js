@@ -254,18 +254,4 @@ const panels = document.querySelectorAll('.panel');
 
     // Google Calendar
 
-    const { google } = require('googleapis')
-
-    const { OAuth2 } = google.auth
-
-    const oAuth2client = new OAuth2('135493184471-n1egfrfsfntbb439o734di5a9klpht6d.apps.googleusercontent.com', 
-    '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'
-    )
-
-    oAuth2client.setCredentials({refresh_token: 
-      '1//04BD6OK_Zyg91CgYIARAAGAQSNwF-L9IrjM971AL3fFBzmI04YTjQVsStViiCOim4opeZ9f5yYuhB_11ruaUjZbo1nh9MJf5DPCE'
-    })
-
-    const calendar = google.calendar({version: 'v3', auth: oAuth2client})
-
     
